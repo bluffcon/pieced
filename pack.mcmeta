@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "§6Adds upgradeable chunk-loading blocks. §f§lBy bluffcon",
+    "pack_format": 81,
+    "supported_formats": {
+      "min_inclusive": 71,
+      "max_inclusive": 88.0
+    }
+  }
+}
