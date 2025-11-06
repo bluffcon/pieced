@@ -25,8 +25,8 @@ execute as @e[type=armor_stand,tag=pieced_chunkloader_temp] run kill @s
 
 # actual forceloading, ticking so that malicious ppl cant unforce chunks BYE PERFORMANCE!!
 execute at @e[tag=pieced_chunloader_type_gold,type=marker] run forceload add ~ ~ ~ ~
-execute at @e[tag=pieced_chunloader_type_diamond,type=marker] run forceload add ~1 ~1 ~-1 ~-1
-execute at @e[tag=pieced_chunloader_type_star,type=marker] run forceload add ~2 ~2 ~-2 ~-2
+execute at @e[tag=pieced_chunloader_type_diamond,type=marker] run forceload add ~16 ~16 ~-16 ~-16
+execute at @e[tag=pieced_chunloader_type_star,type=marker] run forceload add ~32 ~32 ~-32 ~-32
 
 # checking destroy logic
 execute as @e[type=marker,tag=pieced_chunkloader] at @s unless block ~ ~ ~ barrier run function pieced_chunks:loaders/destroy
@@ -54,4 +54,5 @@ execute as @e[type=item,tag=pieced_chunkloader_item] at @s unless entity @e[type
 execute as @a at @s if entity @e[distance=..1.5,type=marker,tag=!pieced_chunkloader_type_set] run title @s actionbar {"text":"This is an inactive Chunk Loader. Throw Gold, Diamond, or a Nether Star at it to activate. Ignite it to pick up.", color:gold} 
 execute as @a at @s if entity @e[distance=..1.5,type=marker,tag=pieced_chunkloader,tag=pieced_chunloader_type_gold] run title @s actionbar {"text":"This is a starter Chunk Loader. It loads only the chunk it's in. It was made with a Gold Ingot. Ignite to pick up.", color:gold} 
 execute as @a at @s if entity @e[distance=..1.5,type=marker,tag=pieced_chunkloader,tag=pieced_chunloader_type_diamond] run title @s actionbar {"text":"This is an upgraded Chunk Loader. It loads in a 3x3 area. It was made with a Diamond. Ignite to pick up.", color:gold} 
+
 execute as @a at @s if entity @e[distance=..1.5,type=marker,tag=pieced_chunkloader,tag=pieced_chunloader_type_star] run title @s actionbar {"text":"This is a maxed out Chunk Loader. It loads in a 5x5 area. It was made with a Nether Star. Everyone will know if you'll try to pick this up.", color:gold} 
