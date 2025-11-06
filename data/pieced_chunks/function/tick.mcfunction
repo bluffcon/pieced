@@ -43,7 +43,7 @@ execute as @e[type=item,tag=pieced_chunkloader_item] at @s unless entity @e[type
     execute as @e[type=marker,tag=pieced_chunkloader,tag=pieced_chunloader_type_diamond] at @s unless entity @e[type=item,tag=pieced_chunkloader_item,distance=..3] run summon item ~ ~0.7 ~ {Item:{id:"diamond",components:{item_name:{"text":"Diamond [Lv2] Chunk Loader"}}},PickupDelay:-1,Age:-32768,CustomNameVisible:1b,Invulnerable:1b,Tags:[pieced_chunkloader_item],OnGround:1b,HasVisualFire:1b,NoGravity:1b}
 
     # star
-    execute as @e[type=marker,tag=pieced_chunkloader,tag=pieced_chunloader_type_diamond] at @s unless entity @e[type=item,tag=pieced_chunkloader_item,distance=..3] run summon item ~ ~0.7 ~ {Item:{id:"nether_star",components:{item_name:{"text":"Nether Star [MAX] Chunk Loader"}}},PickupDelay:-1,Age:-32768,CustomNameVisible:1b,Invulnerable:1b,Tags:[pieced_chunkloader_item],OnGround:1b,HasVisualFire:1b,NoGravity:1b}
+    execute as @e[type=marker,tag=pieced_chunkloader,tag=pieced_chunloader_type_star] at @s unless entity @e[type=item,tag=pieced_chunkloader_item,distance=..3] run summon item ~ ~0.7 ~ {Item:{id:"nether_star",components:{item_name:{"text":"Nether Star [MAX] Chunk Loader"}}},PickupDelay:-1,Age:-32768,CustomNameVisible:1b,Invulnerable:1b,Tags:[pieced_chunkloader_item],OnGround:1b,HasVisualFire:1b,NoGravity:1b}
 #
 
 
@@ -53,4 +53,5 @@ execute as @a at @s if entity @e[distance=..1.5,type=marker,tag=pieced_chunkload
 execute as @a at @s if entity @e[distance=..1.5,type=marker,tag=pieced_chunkloader,tag=pieced_chunloader_type_diamond] run title @s actionbar {"text":"This is an upgraded Chunk Loader. It loads in a 3x3 area. It was made with a Diamond. Ignite to pick up.", color:gold} 
 
 execute as @a at @s if entity @e[distance=..1.5,type=marker,tag=pieced_chunkloader,tag=pieced_chunloader_type_star] run title @s actionbar {"text":"This is a maxed out Chunk Loader. It loads in a 5x5 area. It was made with a Nether Star. Everyone will know if you'll try to pick this up.", color:gold} 
+
 
