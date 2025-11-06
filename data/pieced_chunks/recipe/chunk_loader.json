@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": [
+      "minecraft:deepslate_tiles"
+    ],
+    "B": [
+      "minecraft:gold_ingot"
+    ],
+    "C": [
+      "minecraft:glass"
+    ]
+  },
+  "result": {
+    "id": "minecraft:armor_stand",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "NoGravity": true,
+        "Tags": [
+          "pieced_chunkloader_temp"
+        ],
+        "Invisible": true
+      },
+      "minecraft:item_model": "minecraft:nether_star",
+      "minecraft:item_name": {
+        "text": "Chunk Loader",
+        "color": "gold",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Upgradeable block that makes chunks around itself load",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Current Level: ",
+          "extra": [
+            {
+              "text": "NONE",
+              "color": "white",
+              "italic": false
+            }
+          ],
+          "color": "aqua",
+          "italic": false
+        },
+        "",
+        {
+          "text": "Pieced - Chunk Loaders",
+          "color": "blue",
+          "italic": true
+        }
+      ],"custom_data":{"pieced_loader":"none"}
+    }
+  },
+  "show_notification": true
+}

@@ -1,0 +1,27 @@
+# Project created via BDStudio
+# https://eszesbalint.github.io/bdstudio
+
+#yeah check them out i wont even delete this thing up there
+
+# Pieced Chunkloader Model - Summon Command (with [pieced_chunkloader_model] tag on every entity)
+
+execute at @s run summon block_display ~-0.5 ~-0.5 ~-0.5 {Tags:["pieced_chunkloader_model"],Passengers:[\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:deepslate_tile_stairs",Properties:{facing:"east",half:"bottom",shape:"inner_left"}},transformation:[0.2500f,0.0000f,0.0000f,0.7500f,0.0000f,0.2500f,0.0000f,0.0000f,0.0000f,0.0000f,0.2500f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:deepslate_tile_stairs",Properties:{facing:"east",half:"bottom",shape:"inner_left"}},transformation:[0.2500f,0.0000f,0.0000f,0.7500f,0.0000f,-0.2500f,0.0000f,1.0000f,0.0000f,-0.0000f,-0.2500f,1.0000f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:deepslate_tile_stairs",Properties:{facing:"east",half:"bottom",shape:"inner_left"}},transformation:[-0.0000f,0.0000f,0.2500f,0.0000f,-0.0000f,-0.2500f,-0.0000f,1.0000f,0.2500f,-0.0000f,0.0000f,0.7500f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:deepslate_tile_stairs",Properties:{facing:"east",half:"bottom",shape:"inner_left"}},transformation:[-0.0000f,0.0000f,0.2500f,0.0000f,0.0000f,0.2500f,0.0000f,0.0000f,-0.2500f,0.0000f,-0.0000f,0.2500f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:deepslate_tile_stairs",Properties:{facing:"east",half:"bottom",shape:"inner_left"}},transformation:[-0.2500f,0.0000f,-0.0000f,0.2500f,-0.0000f,0.2500f,0.0000f,0.0000f,0.0000f,0.0000f,-0.2500f,1.0000f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:deepslate_tile_stairs",Properties:{facing:"east",half:"bottom",shape:"inner_left"}},transformation:[0.0000f,-0.0000f,-0.2500f,1.0000f,-0.0000f,0.2500f,-0.0000f,0.0000f,0.2500f,0.0000f,0.0000f,0.7500f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:deepslate_tile_stairs",Properties:{facing:"east",half:"bottom",shape:"inner_left"}},transformation:[-0.2500f,0.0000f,0.0000f,0.2500f,-0.0000f,-0.2500f,-0.0000f,1.0000f,0.0000f,-0.0000f,0.2500f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:deepslate_tile_stairs",Properties:{facing:"east",half:"bottom",shape:"inner_left"}},transformation:[0.0000f,-0.0000f,-0.2500f,1.0000f,-0.0000f,-0.2500f,0.0000f,1.0000f,-0.2500f,-0.0000f,-0.0000f,0.2500f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:gold_block"},transformation:[0.3536f,-0.3536f,0.0000f,0.5000f,0.3536f,0.3536f,0.0000f,0.1250f,0.0000f,0.0000f,0.0100f,0.9375f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:gold_block"},transformation:[0.3536f,-0.3536f,0.0000f,0.5000f,0.3536f,0.3536f,0.0000f,0.1250f,0.0000f,0.0000f,0.0100f,0.0625f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:gold_block"},transformation:[-0.0000f,0.0000f,-0.0100f,0.9375f,0.3536f,0.3536f,0.0000f,0.1250f,0.3536f,-0.3536f,-0.0000f,0.5000f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:gold_block"},transformation:[-0.0000f,0.0000f,-0.0100f,0.1250f,0.3536f,0.3536f,0.0000f,0.1250f,0.3536f,-0.3536f,-0.0000f,0.5000f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:obsidian"},transformation:[0.5000f,0.0000f,0.0000f,0.2500f,0.0000f,0.1000f,0.0000f,0.0000f,0.0000f,0.0000f,0.5000f,0.2500f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:glass"},transformation:[0.9000f,0.0000f,0.0000f,0.0625f,0.0000f,0.9000f,0.0000f,0.0625f,0.0000f,0.0000f,0.9000f,0.0625f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:gold_block"},transformation:[0.2000f,0.0000f,0.0000f,0.0303f,0.0000f,0.1414f,0.1414f,0.1250f,0.0000f,-0.1414f,0.1414f,0.5000f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:gold_block"},transformation:[0.2000f,0.0000f,0.0000f,0.8507f,0.0000f,0.1414f,0.1414f,0.1250f,0.0000f,-0.1414f,0.1414f,0.5000f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:gold_block"},transformation:[0.1414f,-0.1414f,0.0000f,0.5000f,0.1414f,0.1414f,0.0000f,0.1250f,0.0000f,0.0000f,0.2000f,-0.0333f,0.0000f,0.0000f,0.0000f,1.0000f]},\
+{id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:gold_block"},transformation:[0.1414f,-0.1414f,0.0000f,0.5000f,0.1414f,0.1414f,0.0000f,0.1250f,0.0000f,0.0000f,0.2000f,0.8346f,0.0000f,0.0000f,0.0000f,1.0000f]}\
+]}
