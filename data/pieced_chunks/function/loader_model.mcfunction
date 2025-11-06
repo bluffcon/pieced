@@ -3,8 +3,7 @@
 
 #yeah check them out i wont even delete this thing up there
 
-# Pieced Chunkloader Model - Summon Command (with [pieced_chunkloader_model] tag on every entity)
-
+#all have the pieced_chunkloader_model tag
 execute at @s run summon block_display ~-0.5 ~0.01 ~-0.5 {Tags:["pieced_chunkloader_model"],Passengers:[\
 {id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:deepslate_tile_stairs",Properties:{facing:"east",half:"bottom",shape:"inner_left"}},transformation:[0.2500f,0.0000f,0.0000f,0.7500f,0.0000f,0.2500f,0.0000f,0.0000f,0.0000f,0.0000f,0.2500f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]},\
 {id:"minecraft:block_display",Tags:["pieced_chunkloader_model"],block_state:{Name:"minecraft:deepslate_tile_stairs",Properties:{facing:"east",half:"bottom",shape:"inner_left"}},transformation:[0.2500f,0.0000f,0.0000f,0.7500f,0.0000f,-0.2500f,0.0000f,1.0000f,0.0000f,-0.0000f,-0.2500f,1.0000f,0.0000f,0.0000f,0.0000f,1.0000f]},\
