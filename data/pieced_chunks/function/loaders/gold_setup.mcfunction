@@ -2,5 +2,4 @@ particle totem_of_undying ~ ~ ~ 0.3 0.3 0.3 0.2 120 force
 kill @e[type=item,distance=..1,nbt={Item:{id:"minecraft:gold_ingot"}}]
 tag @s add pieced_chunloader_type_set
 tag @s add pieced_chunloader_type_gold
-
-summon item ~ ~0.7 ~ {Item:{id:"gold_ingot",components:{item_name:{"text":"Gold [Lv1] Chunk Loader"}}},PickupDelay:-1,Age:-32768,CustomNameVisible:1b,Invulnerable:1b,Tags:[pieced_chunkloader_item],OnGround:1b,HasVisualFire:1b,NoGravity:1b}
+# effects and tags
