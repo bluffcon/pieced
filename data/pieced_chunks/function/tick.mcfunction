@@ -12,15 +12,12 @@ execute as @e[type=armor_stand,tag=pieced_chunkloader_temp] run kill @s
 
 # SETUPS
     # GOLD
-    execute as @e[type=marker,tag=pieced_chunkloader,tag=!pieced_chunloader_type_set] at @s if entity @n[type=item,distance=..1,nbt={Item:{id:"minecraft:gold_ingot"}}] run tag @s add pieced_chunloader_type_gold
     execute as @e[type=marker,tag=pieced_chunkloader,tag=!pieced_chunloader_type_set] at @s if entity @n[type=item,distance=..1,nbt={Item:{id:"minecraft:gold_ingot"}}] run function pieced_chunks:loaders/gold_setup
 
     # DIAMOND
-    execute as @e[type=marker,tag=pieced_chunkloader,tag=!pieced_chunloader_type_set] at @s if entity @n[type=item,distance=..1,nbt={Item:{id:"minecraft:diamond"}}] run tag @s add pieced_chunloader_type_diamond
     execute as @e[type=marker,tag=pieced_chunkloader,tag=!pieced_chunloader_type_set] at @s if entity @n[type=item,distance=..1,nbt={Item:{id:"minecraft:diamond"}}] run function pieced_chunks:loaders/diamond_setup
 
     # STAR
-    execute as @e[type=marker,tag=pieced_chunkloader,tag=!pieced_chunloader_type_set] at @s if entity @n[type=item,distance=..1,nbt={Item:{id:"minecraft:nether_star"}}] run tag @s add pieced_chunloader_type_star
     execute as @e[type=marker,tag=pieced_chunkloader,tag=!pieced_chunloader_type_set] at @s if entity @n[type=item,distance=..1,nbt={Item:{id:"minecraft:nether_star"}}] run function pieced_chunks:loaders/star_setup
 
 # actual forceloading, ticking so that malicious ppl cant unforce chunks BYE PERFORMANCE!!
@@ -56,3 +53,4 @@ execute as @a at @s if entity @e[distance=..1.5,type=marker,tag=pieced_chunkload
 execute as @a at @s if entity @e[distance=..1.5,type=marker,tag=pieced_chunkloader,tag=pieced_chunloader_type_diamond] run title @s actionbar {"text":"This is an upgraded Chunk Loader. It loads in a 3x3 area. It was made with a Diamond. Ignite to pick up.", color:gold} 
 
 execute as @a at @s if entity @e[distance=..1.5,type=marker,tag=pieced_chunkloader,tag=pieced_chunloader_type_star] run title @s actionbar {"text":"This is a maxed out Chunk Loader. It loads in a 5x5 area. It was made with a Nether Star. Everyone will know if you'll try to pick this up.", color:gold} 
+
