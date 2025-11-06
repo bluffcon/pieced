@@ -7,8 +7,8 @@ kill @e[type=block_display,distance=..0.9]
 kill @e[type=item,distance=..2,tag=pieced_chunkloader_item]
 
 execute if entity @s[tag=pieced_chunloader_type_gold] run forceload remove ~ ~ ~ ~
-execute if entity @s[tag=pieced_chunloader_type_diamond] run forceload remove ~1 ~1 ~-1 ~-1
-execute if entity @s[tag=pieced_chunloader_type_star] run forceload remove ~2 ~2 ~-2 ~-2
+execute if entity @s[tag=pieced_chunloader_type_diamond] run forceload remove ~16 ~16 ~-16 ~-16
+execute if entity @s[tag=pieced_chunloader_type_star] run forceload remove ~32 ~32 ~-32 ~-32
 
 # KEEPING LEVELS
     # NONE
@@ -26,4 +26,5 @@ execute if entity @s[tag=pieced_chunloader_type_star] run forceload remove ~2 ~2
 
 kill @s
 setblock ~ ~ ~ air
+
 
