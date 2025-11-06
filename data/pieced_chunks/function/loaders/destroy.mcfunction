@@ -3,7 +3,7 @@
 playsound entity.lightning_bolt.impact block @a ~ ~ ~ 0.2 1
 particle flash{color:15264496} ~ ~ ~ 0 0 0 1 5 force
 
-kill @e[type=block_display,distance=..0.9]
+kill @e[type=block_display,tag=pieced_chunkloader_model,distance=..0.9]
 kill @e[type=item,distance=..2,tag=pieced_chunkloader_item]
 
 execute if entity @s[tag=pieced_chunloader_type_gold] run forceload remove ~ ~ ~ ~
@@ -26,5 +26,6 @@ execute if entity @s[tag=pieced_chunloader_type_star] run forceload remove ~32 ~
 
 kill @s
 setblock ~ ~ ~ air
+
 
 
